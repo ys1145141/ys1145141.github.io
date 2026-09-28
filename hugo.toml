@@ -1,0 +1,58 @@
+baseURL = "https://ys1145141.github.io/"
+title = "ys1145141 的安全笔记"
+locale = "zh-cn"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+theme = "stack"
+
+# 每页文章数
+[pagination]
+    pagerSize = 5
+
+# 链接结构
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+# 主题参数
+[params]
+    mainSections = ["post"]
+    rssFullContent = true
+    SortBy = "default"
+
+    [params.footer]
+        since = 2026
+        customText = ""
+
+    [params.sidebar]
+        compact = false
+        avatar = "img/avatar.png"
+        emoji = "🛡️"
+        subtitle = "信息安全专业学生 · 记录学习与思考"
+
+    [params.article]
+        headingAnchor = false
+        math = false
+        toc = true
+        readingTime = true
+
+        [params.article.license]
+            enabled = true
+            default = "Licensed under CC BY-NC-SA 4.0"
+
+    [params.widgets]
+        homepage = [
+            { type = "search" },
+            { type = "archives", params = { limit = 5 } },
+            { type = "categories", params = { limit = 10 } },
+            { type = "tag-cloud", params = { limit = 10 } },
+        ]
+        page = [{ type = "toc" }]
+
+    [params.comments]
+        enabled = false
+        provider = "disqus"
+
+    [params.colorScheme]
+        toggle = true
+        default = "auto"
