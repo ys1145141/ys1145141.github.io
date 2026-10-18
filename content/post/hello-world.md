@@ -24,12 +24,4 @@ categories: ["随笔"]
 - 文章用 Markdown 编写，`git push` 后自动构建发布
 
 <!--more-->
-
-## 接下来会写什么
-
-- Web 安全基础（注入、XSS、认证与授权）
-- CTF 解题思路与 Writeup
-- 工具使用笔记（Burp Suite、IDA、Wireshark……）
-- 密码学、逆向工程等课程学习笔记
-
-欢迎交流。
+关注拼好饭谢谢喵
